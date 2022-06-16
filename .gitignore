@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+
+# Mac users
+.DS_Store
+
+#hidden files
+.env
+
+#Hardhat files
+ cache
+ artifacts
+
