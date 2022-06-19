@@ -18,6 +18,7 @@ contract MyToken is ERC20 {
     constructor(string memory _tokenName, string memory _tokenSymbol) ERC20(_tokenName, _tokenSymbol) {
         tokenName = _tokenName;
         tokenSymbol = _tokenSymbol;
+        _mint(msg.sender, 10000);
     }
 
 }
